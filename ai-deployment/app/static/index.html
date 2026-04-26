@@ -532,7 +532,7 @@
     formData.append('file', selectedFile);
 
     try {
-      const res = await fetch('/predict', { method: 'POST', body: formData });
+      const res = await fetch('https://flood-segmentation-api.onrender.com/predict', { method: 'POST', body: formData });
       const data = await res.json();
 
       if (!res.ok) {
