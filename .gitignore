@@ -1,0 +1,44 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Data files
+data/
+scraping_result/
+
+# Logs
+*.log
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Model cache (HuggingFace)
+.cache/
+
+nltk
+re

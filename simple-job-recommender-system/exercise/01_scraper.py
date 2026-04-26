@@ -23,7 +23,7 @@ options.add_argument("--disable-blink-features=AutomationControlled")
 
 driver = webdriver.Chrome(options=options)
 wait = WebDriverWait(driver, 10)
-
+ 
 search_url = "https://id.jobstreet.com/id/{NAMA_JOB}-jobs/in-{TEMPAT}"
 driver.get(search_url)
 

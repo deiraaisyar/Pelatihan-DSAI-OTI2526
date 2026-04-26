@@ -47,7 +47,7 @@ df["description_translated"] = df["description"].apply(translate_text)
 print("Cleaning descriptions...")
 df["description_cleaned"] = df["description_translated"].apply(clean_text)
 
-output_path = "./data/jobstreet_data_{TEMPAT}_{NAMA_JOB}_cleaned.csv"
+output_path = "./data/jo bstreet_data_{TEMPAT}_{NAMA_JOB}_cleaned  .csv"
 df.to_csv(output_path, index=False)
 
 print("\nORIGINAL:")
